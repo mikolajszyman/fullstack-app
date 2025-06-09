@@ -51,8 +51,6 @@ const App: React.FC = () => {
           />
           
 
-
-
           <Route path="/groups/:groupId/debts" element={<GroupDebtsPage />} />
           <Route path="/test" element={<TestApiComponent />} />
           <Route
